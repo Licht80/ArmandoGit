@@ -1,0 +1,21 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Variables de entorno y credenciales locales
+.env
+.env.*
+!.env.example
+config/conexion.php
+# Configuración local de editores e IDEs
+.vscode/settings.json
+.idea/
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.swp
+
+# Archivos generados por PHP
+vendor/
+composer.lock
